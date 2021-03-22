@@ -21,7 +21,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 SECURE_SSL_REDIRECT = True
 
-ALLOWED_HOSTS = ["jcdjangopostgres.herokuapp.com"]
+ALLOWED_HOSTS = ["django-postgres-heroku.herokuapp.com"]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
