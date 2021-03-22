@@ -1,1 +1,1 @@
-web: gunicorn django_postgres_example.wsgi
+web: gunicorn django_docker_postgress.wsgi
