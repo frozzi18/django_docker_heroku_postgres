@@ -11,7 +11,7 @@ services: postgresql
 
 # Add the environment version
 env:
-  - export DJANGO_SETTINGS_MODULE=django_postgres_example.settings.travis
+  - export DJANGO_SETTINGS_MODULE=django.docker.postgress.settings.travis
 # Tell it the things it will need to install when it boots
 
 
